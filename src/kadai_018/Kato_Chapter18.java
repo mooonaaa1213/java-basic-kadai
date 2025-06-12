@@ -9,7 +9,10 @@ abstract public class Kato_Chapter18 {
 		System.out.println("住所は" + address + "です");
 	}
 	abstract public void eachIntroduce() ;
-	public void execIntroduce() {
-		
+	
+	public void exeIntroduce() {
+		commonIntroduce();
+		eachIntroduce();
+		System.out.println("");
 	}
 }
